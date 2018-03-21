@@ -20,7 +20,7 @@ class App < Sinatra::Base
   get '/say/:number/:phrase' do
     @phrase = params[:phrase]
     @n = params[:number].to_i
-    
+
       @phrase.repeat(@n)
 
   end #get say
