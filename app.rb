@@ -42,7 +42,7 @@ class App < Sinatra::Base
       @subtract = @num2 - @num1
       "#{@subtract}"
     elsif @operation == "multiply"
-      @multiply = @num1 * @num2 
+      @multiply = @num1 * @num2
       "#{@multiply}"
     end
   end
