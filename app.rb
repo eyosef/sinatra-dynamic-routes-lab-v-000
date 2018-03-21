@@ -23,7 +23,7 @@ class App < Sinatra::Base
 
     @return = @phrase * @n
 
-      return @phrase.repeat(@n)
+      @return
 
   end #get say
 
