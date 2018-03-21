@@ -36,6 +36,7 @@ class App < Sinatra::Base
 
     @add = @num1 + @num2
     "#{@add}"
+    @subtract = @num2 - @num1
   end
 
 end
