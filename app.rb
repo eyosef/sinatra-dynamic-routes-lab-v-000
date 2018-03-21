@@ -30,4 +30,6 @@ class App < Sinatra::Base
     "#{@join}."
   end
 
+  get '/:operation/:number1/:number2'
+
 end
