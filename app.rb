@@ -22,6 +22,8 @@ class App < Sinatra::Base
     @n = params[:number].to_i
     counter = 0
 
+      @phrase.repeat(@n)
+
     loop do
       "#{@phrase}"
       counter += 1
