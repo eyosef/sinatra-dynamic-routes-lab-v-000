@@ -23,6 +23,6 @@ class App < Sinatra::Base
 
     @return = @phrase * @n
     @return
-  end #get say
+  end
 
 end
