@@ -34,8 +34,8 @@ class App < Sinatra::Base
     @num1 = params[:number1].to_i
     @num2 = params[:number2].to_i
 
-    @add = @num1 + @num2
-    "#{@add}"
+    @result = @num1 + @num2
+    "#{result}"
   end
 
 end
