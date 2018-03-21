@@ -21,7 +21,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     @n = params[:number].to_i
 
-      @phrase.repeat(@n)
+      return @phrase.repeat(@n)
 
   end #get say
 
