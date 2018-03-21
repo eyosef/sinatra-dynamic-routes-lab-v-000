@@ -21,6 +21,8 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     @n = params[:number].to_i
 
+    @return = 
+
       return @phrase.repeat(@n)
 
   end #get say
