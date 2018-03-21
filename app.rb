@@ -22,9 +22,7 @@ class App < Sinatra::Base
     @n = params[:number].to_i
 
     @return = @phrase * @n
-
-      @return
-
+    @return
   end #get say
 
 end
